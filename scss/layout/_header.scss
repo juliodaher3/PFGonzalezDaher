@@ -1,5 +1,5 @@
 
-.header {
+header {
     background-color: rgba(218, 165, 32, 0.697);
     padding: 15px;
     width: 100vw;
@@ -46,15 +46,19 @@
     }
 }
 
-.header__nav a {
+.header__nav {
     font-weight: inherit;
-    color: black;
+    color: white;
     font-size: 1.3rem;
 
     transition-property: all;
     transition-duration: 350ms;
-    &.header__nav a:hover {
+    justify-content: space-around;
+    & a:hover {
         color: beige;
+    }
+    & ul li{
+        color: black;
     }
 }
 

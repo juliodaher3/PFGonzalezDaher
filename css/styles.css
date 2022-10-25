@@ -35,14 +35,14 @@
   color: goldenrod;
 }
 
-.header {
+header {
   background-color: rgba(218, 165, 32, 0.697);
   padding: 15px;
   width: 100vw;
   text-align: center;
   color: black;
 }
-.headera {
+headera {
   color: black;
 }
 
@@ -79,15 +79,19 @@
   transform: scale(1.2);
 }
 
-.header__nav a {
+.header__nav {
   font-weight: inherit;
-  color: black;
+  color: white;
   font-size: 1.3rem;
   transition-property: all;
   transition-duration: 350ms;
+  justify-content: space-around;
 }
-.header__nav a.header__nav a:hover {
+.header__nav a:hover {
   color: beige;
+}
+.header__nav ul li {
+  color: black;
 }
 
 .contacto {
@@ -317,13 +321,14 @@
     justify-content: space-between;
     align-items: center;
   }
-  .header__nav {
-    width: 50%;
+  nav {
+    width: 30%;
+    justify-content: space-around;
   }
-  .header__nav ul {
+  nav ul {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-around;
     padding-right: 50px;
   }
 }

@@ -11,6 +11,43 @@
   background-color: rgba(218, 165, 32, 0.296);
 }
 
+.form-control:focus {
+  border: solid burlywood;
+  outline: 0;
+  box-shadow: none;
+}
+
+.form-select:focus {
+  border: solid burlywood;
+  outline: 0;
+  box-shadow: none;
+}
+
+.form-check-input:focus {
+  border: solid burlywood;
+  background-color: burlywood;
+  outline: 0;
+  box-shadow: none;
+}
+
+.form-check-input:checked {
+  border: solid burlywood;
+  background-color: burlywood;
+  outline: 0;
+  box-shadow: none;
+}
+
+.btn {
+  background-color: white;
+  border: solid gray 1px;
+  color: black;
+}
+
+.btn-primary:hover {
+  color: black;
+  background-color: burlywood;
+}
+
 * {
   margin: 0;
   padding: 0;

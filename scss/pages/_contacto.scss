@@ -1,17 +1,13 @@
-.contacto {
-    background-color: burlywood;
-    width: 100%;
-    height: 600px;
-
-}
 
 .formulario {
-    width: 500px;
-    height: 500px;
+
     display: flex;
     align-items: center;
     justify-content: center;
     margin: 0px auto;
+    & titulo{
+        font-weight: bold;
+    }
     &_columna {
         display: flex;
         flex-direction: column;

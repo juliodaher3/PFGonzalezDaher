@@ -1,6 +1,6 @@
 
 header {
-    background-color: rgba(218, 165, 32, 0.697);
+    background-color: #e5c063;
     padding: 15px;
     width: 100vw;
     text-align: center;
@@ -46,7 +46,7 @@ header {
     }
 }
 
-.header__nav {
+.nav-menu {
     font-weight: inherit;
     color: white;
     font-size: 1.3rem;
@@ -54,6 +54,7 @@ header {
     transition-property: all;
     transition-duration: 350ms;
     justify-content: space-around;
+    
     & a:hover {
         color: beige;
     }

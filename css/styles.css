@@ -73,7 +73,7 @@
 }
 
 header {
-  background-color: rgba(218, 165, 32, 0.697);
+  background-color: #e5c063;
   padding: 15px;
   width: 100vw;
   text-align: center;
@@ -116,7 +116,7 @@ headera {
   transform: scale(1.2);
 }
 
-.header__nav {
+.nav-menu {
   font-weight: inherit;
   color: white;
   font-size: 1.3rem;
@@ -124,11 +124,21 @@ headera {
   transition-duration: 350ms;
   justify-content: space-around;
 }
-.header__nav a:hover {
+.nav-menu a:hover {
   color: beige;
 }
-.header__nav ul li {
+.nav-menu ul li {
   color: black;
+}
+
+.menu-icon img {
+  width: 30px;
+  height: 30px;
+  border-radius: 2px;
+}
+
+.menu-icon, #check {
+  display: none;
 }
 
 .contacto {
@@ -358,15 +368,51 @@ headera {
     justify-content: space-between;
     align-items: center;
   }
-  nav {
-    width: 30%;
-    justify-content: space-around;
+  .nav-menu {
+    width: 700px;
+    justify-content: space-between;
   }
-  nav ul {
+  .nav-menu ul {
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-between;
     padding-right: 50px;
+  }
+}
+@media (max-width: 768px) {
+  .checkbtn {
+    display: block;
+  }
+  .menu-icon {
+    display: block;
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    cursor: pointer;
+  }
+  .nav-menu ul {
+    display: block;
+    position: fixed;
+    top: 70px;
+    left: -100%;
+    background: #e5c063;
+    width: 100%;
+    height: 100vh;
+    right: 0;
+  }
+  .nav-menu ul li {
+    padding: 2rem;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+  }
+  .nav-menu ul li:last-child {
+    background: none;
+    padding: 1rem;
+  }
+  #check:checked ~ ul {
+    left: 0;
+    transition: all 0.25s;
   }
 }
 

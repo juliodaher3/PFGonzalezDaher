@@ -76,7 +76,7 @@
 header {
   background-color: #e5c063;
   padding: 15px;
-  width: 100vw;
+  width: 100%;
   text-align: center;
   color: black;
 }
@@ -87,7 +87,7 @@ headera {
 .header-dos {
   background-color: rgba(218, 165, 32, 0.333);
   padding: 15px;
-  width: 100vw;
+  width: 100%;
   position: absolute;
   text-align: center;
   color: black;

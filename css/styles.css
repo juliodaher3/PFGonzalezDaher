@@ -28,6 +28,7 @@
   background-color: burlywood;
   outline: 0;
   box-shadow: none;
+  z-index: 1;
 }
 
 .form-check-input:checked {
@@ -393,6 +394,7 @@ headera {
     width: 100%;
     height: 100vh;
     right: 0;
+    z-index: 1;
   }
   .nav-menu ul li {
     padding: 2rem;

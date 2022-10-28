@@ -181,6 +181,7 @@ headera {
 
 .hero {
   height: 800px;
+  width: 100%;
   background-image: url(../assets/grano_cafe.jpg);
   background-position: center;
   background-repeat: no-repeat;
@@ -393,7 +394,6 @@ headera {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    padding-right: 50px;
   }
 }
 @media (max-width: 768px) {

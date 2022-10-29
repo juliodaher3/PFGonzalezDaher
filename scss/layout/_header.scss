@@ -1,28 +1,13 @@
 
 header {
+    @extend .head;
     background-color: #e5c063;
-    padding: 15px;
-    width: 100%;
-    text-align: center;
-    color: black;
-    &a{
-        color: black;
-    }
-    
 }
 
-.hero-header {
+.header-dos {
+    @extend .head;
+    position: absolute;
     background-color: rgba(218, 165, 32, 0.333);
-    padding: 15px;
-    width: 100%;
-    // position: absolute;
-    text-align: center;
-    color: black;
-    &a{
-        color: black;
-    }
-    
-    
 }
 
 .header__title {

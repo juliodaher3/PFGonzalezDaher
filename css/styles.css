@@ -49,6 +49,16 @@
   background-color: burlywood;
 }
 
+.head, .header-dos, header {
+  padding: 15px;
+  width: 100%;
+  text-align: center;
+  color: black;
+}
+.heada {
+  color: black;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -75,24 +85,11 @@
 
 header {
   background-color: #e5c063;
-  padding: 15px;
-  width: 100%;
-  text-align: center;
-  color: black;
-}
-headera {
-  color: black;
 }
 
-.hero-header {
+.header-dos {
+  position: absolute;
   background-color: rgba(218, 165, 32, 0.333);
-  padding: 15px;
-  width: 100%;
-  text-align: center;
-  color: black;
-}
-.hero-headera {
-  color: black;
 }
 
 .header__title {
@@ -393,6 +390,7 @@ headera {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    padding-right: 50px;
   }
 }
 @media (max-width: 768px) {
